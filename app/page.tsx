@@ -139,7 +139,20 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="footer"><div className="shell footer-inner"><a className="brand" href="#home" aria-label="Sweekaar Productions home"><Image className="brand-logo" src="/sweekaar-logo.png" alt="Sweekaar Productions" width={2251} height={2251} /></a><p>© {new Date().getFullYear()} Sweekaar Productions.<br />Cinema. Theatre. Human Stories.</p><div><a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div></div></footer>
+      <footer className="footer">
+        <div className="shell footer-inner">
+          <div className="footer-contact">
+            <p>Mumbai, Maharashtra, India</p>
+            <a href="mailto:hello@sweekaarproductions.com">hello@sweekaarproductions.com</a>
+          </div>
+          <div className="footer-socials" aria-label="Social links">
+            <a href="#">Instagram</a>
+            <a href="#">YouTube</a>
+            <a href="#">LinkedIn</a>
+          </div>
+          <p className="footer-copy">© {new Date().getFullYear()} Sweekaar Productions</p>
+        </div>
+      </footer>
     </main>
   );
 }
