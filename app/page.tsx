@@ -354,7 +354,6 @@ export default function Home() {
           <p className="hero-copy">Sweekaar Productions is a creative platform dedicated to cinema and theatre that celebrates resilience, transformation, and authentic storytelling.</p>
           <a className="button button-light" href="#projects">Explore our work <span>↘</span></a>
         </div>
-        <div className="hero-index"><span>01</span><i /> <span>05</span></div>
       </section>
 
       <section id="founder" className="founder-carousel">
