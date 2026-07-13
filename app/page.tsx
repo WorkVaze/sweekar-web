@@ -160,7 +160,7 @@ const values = [
 
 const featuredProjects = [
   {
-    image: "/source-assets/image-7.jpg",
+    image: "/source-assets/image-7.webp",
     alt: "The Second Wind film artwork",
     width: 578,
     height: 462,
