@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, TouchEvent, useEffect, useRef, useState } from "react";
+import { FormEvent, ReactElement, TouchEvent, useEffect, useRef, useState } from "react";
 import Image from "next/image";
 
 const services = [
@@ -10,7 +10,7 @@ const services = [
   { number: "04", title: "Creative Collaborations", description: "Artistic partnerships, production collaborations, and creative projects that bring together the best minds and talents to create extraordinary work that transcends boundaries.", media: "collab", icon: "collab" },
 ];
 
-const serviceIcons: Record<string, JSX.Element> = {
+const serviceIcons: Record<string, ReactElement> = {
   cinema: (
     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
       <rect x="1" y="3" width="14" height="10" stroke="#a88745" strokeWidth="0.8" />
@@ -45,7 +45,7 @@ const serviceIcons: Record<string, JSX.Element> = {
   ),
 };
 
-const serviceVisuals: Record<string, JSX.Element> = {
+const serviceVisuals: Record<string, ReactElement> = {
   cinema: (
     <svg viewBox="0 0 500 200" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" style={{ width: "100%", height: "100%", display: "block" }}>
       <defs>
