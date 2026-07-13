@@ -124,7 +124,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       </head>
-      <body>
+      <body suppressHydrationWarning>
         {children}
         <GoogleAnalytics />
         <MetaPixel />
